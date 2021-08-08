@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #4e4e4e;
+}
+
+body {
+  width: 100%;
+  font-family: 'Catamaran', sans-serif;}
+
+header{
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
+  height: 4em;
+  border-bottom: 1px solid #4e4e4e;
+}
+
+.desktop{
+  display: none;
+}
+
+.logo{
+  height: 2em;
+  display: flex;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+  width: 75%;
+}
+
+.menu-item {
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 583px){
+  
+  .mobile{
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+  .menu{
+    justify-content: flex-end;
+  }
+  .menu-item {
+    padding-left: 1em;
+  }
+}
