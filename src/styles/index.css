@@ -36,6 +36,7 @@ a {
 
 p{
   line-height: 1.5em;
+  color: #5e5e5e;
 }
 
 .desktop{
@@ -345,6 +346,7 @@ button .subtitle-small{
 
 .thesis-exhibits {
  text-align: center;
+ padding-bottom: 32px;
 }
 
 .subtitle {
@@ -414,4 +416,28 @@ video {
     text-align: left;
   }
 
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  border-top: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  margin: 16px 24px;
+}
+
+@media only screen and (min-width: 583px){
+
+  footer .desktop {
+    margin: 16px 24px;
+  }
+
+  .terms, .privacy {
+    padding-left: 0.5em;
+  }
 }
