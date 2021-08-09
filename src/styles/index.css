@@ -306,6 +306,10 @@ button .subtitle-small{
   text-transform: capitalize;
 }
 
+.capitalized span {
+  text-transform: none;
+}
+
 
 @media only screen and (min-width: 583px){
   .courses {
@@ -335,6 +339,79 @@ button .subtitle-small{
     margin: 1em 1em 2em;
     overflow: scroll;
   }
-
 }
 
+/* Thesis exhibits section */
+
+.thesis-exhibits {
+ text-align: center;
+}
+
+.subtitle {
+margin: 32px 0 16px;
+}
+
+.thesis-video {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 583px){
+
+  .subtitle {
+    margin: 32px;
+  }
+
+  .thesis-main {
+    display: flex;
+    flex-direction: row;  
+  }
+
+  .thesis-video {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+  }
+
+  .thesis-video-text {
+    text-align: left;
+    padding: 24px 0 32px;
+  }
+
+  .subtitle-small {
+    margin-bottom: 8px;
+  }
+
+  .thesis-info {
+    width: 40%;
+  }
+
+  .thesis-item {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .thesis-item:hover {
+    background-color: #dbdbdb;
+  }
+
+  .thesis-img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+  }
+
+  .thesis-item-text{
+    width: 65%;
+    text-align: left;
+  }
+
+}
